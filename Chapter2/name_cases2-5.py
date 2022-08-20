@@ -1,0 +1,1 @@
+print ('British writer Edmund Burke said: "You can never plan the future by the past"')
