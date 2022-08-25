@@ -1,4 +1,4 @@
-message ="First test text message"
+message = "First test text message"
 print(message)
-message ="Second test text message"
+message = "Second test text message"
 print(message)
