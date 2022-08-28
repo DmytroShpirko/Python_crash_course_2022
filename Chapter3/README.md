@@ -49,21 +49,40 @@ I would like to buy Ford soon.
 ## Ex 3-4
 
 ~~~
-
+guests = ['DelPiero', 'Biden', 'putin']
+print ("Welcome, " + (guests[0]) + " to dinner-party!")
+print ("Welcome, " + (guests[1]) + " to dinner-party!")
+print ("Welcome, " + (guests[2]) + " to hell-party!")
 ~~~
 
 ~~~
-
+gk-25:Python_Crash_Course_2022 tgk$ python3 Chapter3/guests3-4.py
+Welcome, DelPiero to dinner-party!
+Welcome, Biden to dinner-party!
+Welcome, putin to hell-party!
 ~~~
 
 ## Ex 3-5
 
 ~~~
-
+guests = ['DelPiero', 'Biden', 'putin']
+print ("Welcome, " + (guests[0]) + " to dinner-party!")
+print ("Welcome, " + (guests[1]) + " to dinner-party!")
+print ("Welcome, " + (guests[2]) + " to hell-party!")
+guests[2] = 'patrushev'
+print ("Welcome, " + (guests[0]) + " to dinner-party!")
+print ("Welcome, " + (guests[1]) + " to dinner-party!")
+print ("Welcome, " + (guests[2]) + " to hell-party!")
 ~~~
 
 ~~~
-
+tgk-25:Python_Crash_Course_2022 tgk$ python3 Chapter3/guests3-5.py
+Welcome, DelPiero to dinner-party!
+Welcome, Biden to dinner-party!
+Welcome, putin to hell-party!
+Welcome, DelPiero to dinner-party!
+Welcome, Biden to dinner-party!
+Welcome, patrushev to hell-party!
 ~~~
 
 ## Ex 3-6
