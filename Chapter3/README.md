@@ -88,21 +88,99 @@ Welcome, patrushev to hell-party!
 ## Ex 3-6
 
 ~~~
-
+guests = ['DelPiero', 'Biden', 'putin']
+print ("Welcome, " + (guests[0]) + " to dinner-party!")
+print ("Welcome, " + (guests[1]) + " to dinner-party!")
+print ("Welcome, " + (guests[2]) + " to hell-party!")
+guests[2] = 'patrushev'
+print ("Welcome, " + (guests[0]) + " to dinner-party!")
+print ("Welcome, " + (guests[1]) + " to dinner-party!")
+print ("Welcome, " + (guests[2]) + " to hell-party!")
+print ('Our party will be bigger!')
+guests.insert(0, 'Zelenskiy')
+guests.insert(2, 'Zaluzhnyy')
+guests.append('Arestovych')
+print ("Welcome, " + (guests[0]) + " to dinner-party!")
+print ("Welcome, " + (guests[1]) + " to dinner-party!")
+print ("Welcome, " + (guests[2]) + " to dinner-party!")
+print ("Welcome, " + (guests[3]) + " to dinner-party!")
+print ("Welcome, " + (guests[4]) + " to hell-party!")
 ~~~
 
 ~~~
-
+gk-25:Python_Crash_Course_2022 tgk$ python3 Chapter3/guests3-6.py
+Welcome, DelPiero to dinner-party!
+Welcome, Biden to dinner-party!
+Welcome, putin to hell-party!
+Welcome, DelPiero to dinner-party!
+Welcome, Biden to dinner-party!
+Welcome, patrushev to hell-party!
+Our party will be bigger!
+Welcome, Zelenskiy to dinner-party!
+Welcome, DelPiero to dinner-party!
+Welcome, Zaluzhnyy to dinner-party!
+Welcome, Biden to dinner-party!
+Welcome, patrushev to hell-party!
 ~~~
 
 ## Ex 3-7
 
 ~~~
-
+guests = ['DelPiero', 'Biden', 'putin']
+print ("Welcome, " + (guests[0]) + " to dinner-party!")
+print ("Welcome, " + (guests[1]) + " to dinner-party!")
+print ("Welcome, " + (guests[2]) + " to hell-party!")
+guests[2] = 'patrushev'
+print ("Welcome, " + (guests[0]) + " to dinner-party!")
+print ("Welcome, " + (guests[1]) + " to dinner-party!")
+print ("Welcome, " + (guests[2]) + " to hell-party!")
+print ('Our party will be bigger!')
+guests.insert(0, 'Zelenskiy')
+guests.insert(2, 'Zaluzhnyy')
+guests.append('Arestovych')
+print ("Welcome, " + (guests[0]) + " to dinner-party!")
+print ("Welcome, " + (guests[1]) + " to dinner-party!")
+print ("Welcome, " + (guests[2]) + " to dinner-party!")
+print ("Welcome, " + (guests[3]) + " to dinner-party!")
+print ("Welcome, " + (guests[4]) + " to hell-party!")
+print ('SORRY, ONLY 2 GUESTS WAS INVATED TO PARTY')
+print(guests)
+first_cancelled=guests.pop(1)
+print('Sorry ' + first_cancelled.title() + ' but your invate has been cancelled')
+second_cancelled=guests.pop(4)
+print('Sorry ' + second_cancelled.title() + ' but your invate has been cancelled')
+third_cancelled=guests.pop(3)
+print('Sorry ' + third_cancelled.title() + ' but your invate has been cancelled')
+fourth_cancelled=guests.pop(2)
+print('Sorry ' + fourth_cancelled.title() + ' but your invate has been cancelled')
+print ("This message confirm, that your Mr. " + (guests[0]) + " invite to party is actually!")
+print ("This message confirm, that your Mr. " + (guests[1]) + " invite to party is actually!")
+del guests[:2]
+print(guests)
 ~~~
 
 ~~~
-
+tgk-25:Python_Crash_Course_2022 tgk$ python3 Chapter3/names3-7.py
+Welcome, DelPiero to dinner-party!
+Welcome, Biden to dinner-party!
+Welcome, putin to hell-party!
+Welcome, DelPiero to dinner-party!
+Welcome, Biden to dinner-party!
+Welcome, patrushev to hell-party!
+Our party will be bigger!
+Welcome, Zelenskiy to dinner-party!
+Welcome, DelPiero to dinner-party!
+Welcome, Zaluzhnyy to dinner-party!
+Welcome, Biden to dinner-party!
+Welcome, patrushev to hell-party!
+SORRY, ONLY 2 GUESTS WAS INVATED TO PARTY
+['Zelenskiy', 'DelPiero', 'Zaluzhnyy', 'Biden', 'patrushev', 'Arestovych']
+Sorry Delpiero but your invate has been cancelled
+Sorry Arestovych but your invate has been cancelled
+Sorry Patrushev but your invate has been cancelled
+Sorry Biden but your invate has been cancelled
+This message confirm, that your Mr. Zelenskiy invite to party is actually!
+This message confirm, th
 ~~~
 
 ## Ex 3-8

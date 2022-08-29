@@ -1,0 +1,17 @@
+guests = ['DelPiero', 'Biden', 'putin']
+print ("Welcome, " + (guests[0]) + " to dinner-party!")
+print ("Welcome, " + (guests[1]) + " to dinner-party!")
+print ("Welcome, " + (guests[2]) + " to hell-party!")
+guests[2] = 'patrushev'
+print ("Welcome, " + (guests[0]) + " to dinner-party!")
+print ("Welcome, " + (guests[1]) + " to dinner-party!")
+print ("Welcome, " + (guests[2]) + " to hell-party!")
+print ('Our party will be bigger!')
+guests.insert(0, 'Zelenskiy')
+guests.insert(2, 'Zaluzhnyy')
+guests.append('Arestovych')
+print ("Welcome, " + (guests[0]) + " to dinner-party!")
+print ("Welcome, " + (guests[1]) + " to dinner-party!")
+print ("Welcome, " + (guests[2]) + " to dinner-party!")
+print ("Welcome, " + (guests[3]) + " to dinner-party!")
+print ("Welcome, " + (guests[4]) + " to hell-party!")
