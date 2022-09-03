@@ -220,10 +220,46 @@ tgk-25:Python_Crash_Course_2022 tgk$ python3 Chapter3/countries3-8.py
 ## Ex 3-9
 
 ~~~
-
+guests = ['DelPiero', 'Biden', 'putin']
+number=len(guests)
+print(number)
 ~~~
 
 ~~~
+tgk-25:Python_Crash_Course_2022 tgk$ python3 Chapter3/number3-9.py
+3
+~~~
+
+## Ex 3-10
+
+~~~
+places = ['Albania', 'Switzerland' ,'France', 'Spain', 'Italy', 'England', 'Cyprus', 'Turkey', 'Germany', 'Poland', 'Neterlands' ]
+print (places)
+message = 'Last country which i visited was ' + places[7] + '!'
+print (message)
+places[2] = 'Egypt'
+print(places)
+places.append ('Luxembourg')
+print(places)
+del places[7]
+last_country=places.pop()
+print (last_country)
+places.sort()
+print (places)
+places.sort(reverse=True)
+print (places)
+number_country=len(places)
+print (number_country)
 
 ~~~
 
+~~~gk-25:Python_Crash_Course_2022 tgk$ python3 Chapter3/review3-10.py
+['Albania', 'Switzerland', 'France', 'Spain', 'Italy', 'England', 'Cyprus', 'Turkey', 'Germany', 'Poland', 'Neterlands']
+Last country which i visited was Turkey!
+['Albania', 'Switzerland', 'Egypt', 'Spain', 'Italy', 'England', 'Cyprus', 'Turkey', 'Germany', 'Poland', 'Neterlands']
+['Albania', 'Switzerland', 'Egypt', 'Spain', 'Italy', 'England', 'Cyprus', 'Turkey', 'Germany', 'Poland', 'Neterlands', 'Luxembourg']
+Luxembourg
+['Albania', 'Cyprus', 'Egypt', 'England', 'Germany', 'Italy', 'Neterlands', 'Poland', 'Spain', 'Switzerland']
+['Switzerland', 'Spain', 'Poland', 'Neterlands', 'Italy', 'Germany', 'England', 'Egypt', 'Cyprus', 'Albania']
+10
+~~~
