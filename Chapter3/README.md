@@ -185,11 +185,35 @@ This message confirm, th
 ## Ex 3-8
 
 ~~~
-
+countries = ['USA', 'Australia', 'Senegal', 'Brazil', 'Wales']
+print(countries)
+print (sorted (countries))
+print(countries)
+print(sorted(countries, reverse=True))
+print(countries)
+print(countries.reverse)
+countries.reverse()
+print(countries)
+countries.reverse()
+print(countries)
+countries.sort()
+print (countries)
+countries.sort(reverse=True)
+print (countries)
 ~~~
 
 ~~~
-
+tgk-25:Python_Crash_Course_2022 tgk$ python3 Chapter3/countries3-8.py
+['USA', 'Australia', 'Senegal', 'Brazil', 'Wales']
+['Australia', 'Brazil', 'Senegal', 'USA', 'Wales']
+['USA', 'Australia', 'Senegal', 'Brazil', 'Wales']
+['Wales', 'USA', 'Senegal', 'Brazil', 'Australia']
+['USA', 'Australia', 'Senegal', 'Brazil', 'Wales']
+<built-in method reverse of list object at 0x7f7d6dab7980>
+['Wales', 'Brazil', 'Senegal', 'Australia', 'USA']
+['USA', 'Australia', 'Senegal', 'Brazil', 'Wales']
+['Australia', 'Brazil', 'Senegal', 'USA', 'Wales']
+['Wales', 'USA', 'Senegal', 'Brazil', 'Australia']
 ~~~
 
 
