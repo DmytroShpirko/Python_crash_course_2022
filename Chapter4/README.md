@@ -36,41 +36,77 @@ Any of this animals would be a great pet!
 ## Ex 4-3
 
 ~~~
-
+for value in range(1,21):
+    print(value) 
 ~~~
 
 ~~~
-
+tgk-25:Python_Crash_Course_2022 tgk$ python3 Chapter4/numbers4-3.py
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
 ~~~
 
 ## Ex 4-4
 
 ~~~
-
-~~~
-
-~~~
-
+numbers = list(range(1, 1000001))
+for number in numbers:
+    print(number)
 ~~~
 
 ## Ex 4-5
 
 ~~~
+numbers = list(range(1, 1000001))
 
+print(min(numbers))    
+print(max(numbers))    
+print(sum(numbers)) 
 ~~~
 
 ~~~
-
+1
+1000000
+500000500000
 ~~~
 
 ## Ex 4-6
 
 ~~~
-
+nechet_numbers = list(range(1, 21, 2)) 
+for nechet_number in nechet_numbers:
+    print(nechet_number)
 ~~~
 
 ~~~
-
+1
+3
+5
+7
+9
+11
+13
+15
+17
+19
 ~~~
 
 ## Ex 4-7
