@@ -20,12 +20,19 @@ I really love pizza
 ## Ex 4-2
 
 ~~~
-
+pets = ['dog', 'cat', 'rabbit']
+for pet in pets:
+        print ("A " + pet.title() + " is a great pet!")
+print ("Any of this animals would be a great pet!")
 ~~~
 
 ~~~
-
-
+tgk-25:Python_Crash_Course_2022 tgk$ python3 Chapter4/pets4-2.py
+A Dog is a great pet!
+A Cat is a great pet!
+A Rabbit is a great pet!
+Any of this animals would be a great pet!
+~~~
 ## Ex 4-3
 
 ~~~
